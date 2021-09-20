@@ -1,0 +1,144 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "fdcd6155cb450f7c6130329a3a98a551",
+    "packages": [
+        {
+            "name": "cocur/slugify",
+            "version": "v4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cocur/slugify.git",
+                "reference": "3f1ffc300f164f23abe8b64ffb3f92d35cec8307"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cocur/slugify/zipball/3f1ffc300f164f23abe8b64ffb3f92d35cec8307",
+                "reference": "3f1ffc300f164f23abe8b64ffb3f92d35cec8307",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=7.0"
+            },
+            "conflict": {
+                "symfony/config": "<3.4 || >=4,<4.3",
+                "symfony/dependency-injection": "<3.4 || >=4,<4.3",
+                "symfony/http-kernel": "<3.4 || >=4,<4.3",
+                "twig/twig": "<2.12.1"
+            },
+            "require-dev": {
+                "laravel/framework": "~5.1",
+                "latte/latte": "~2.2",
+                "league/container": "^2.2.0",
+                "mikey179/vfsstream": "~1.6.8",
+                "mockery/mockery": "^1.3",
+                "nette/di": "~2.4",
+                "phpunit/phpunit": "^5.7.27",
+                "pimple/pimple": "~1.1",
+                "plumphp/plum": "~0.1",
+                "symfony/config": "^3.4 || ^4.3 || ^5.0",
+                "symfony/dependency-injection": "^3.4 || ^4.3 || ^5.0",
+                "symfony/http-kernel": "^3.4 || ^4.3 || ^5.0",
+                "twig/twig": "^2.12.1 || ~3.0",
+                "zendframework/zend-modulemanager": "~2.2",
+                "zendframework/zend-servicemanager": "~2.2",
+                "zendframework/zend-view": "~2.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Cocur\\Slugify\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Florian Eckerstorfer",
+                    "email": "florian@eckerstorfer.co",
+                    "homepage": "https://florian.ec"
+                },
+                {
+                    "name": "Ivo Bathke",
+                    "email": "ivo.bathke@gmail.com"
+                }
+            ],
+            "description": "Converts a string into a slug.",
+            "keywords": [
+                "slug",
+                "slugify"
+            ],
+            "support": {
+                "issues": "https://github.com/cocur/slugify/issues",
+                "source": "https://github.com/cocur/slugify/tree/master"
+            },
+            "time": "2019-12-14T13:04:14+00:00"
+        },
+        {
+            "name": "verot/class.upload.php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/verot/class.upload.php.git",
+                "reference": "1e9d8d065d1f0de15a77becd473cd30d53dc91ac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/verot/class.upload.php/zipball/1e9d8d065d1f0de15a77becd473cd30d53dc91ac",
+                "reference": "1e9d8d065d1f0de15a77becd473cd30d53dc91ac",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/class.upload.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Colin Verot",
+                    "email": "colin@verot.net"
+                }
+            ],
+            "description": "This PHP class uploads files and manipulates images very easily.",
+            "homepage": "http://www.verot.net/php_class_upload.htm",
+            "keywords": [
+                "gd",
+                "upload"
+            ],
+            "support": {
+                "email": "colin@verot.net",
+                "issues": "https://github.com/verot/class.upload.php/issues",
+                "source": "https://github.com/verot/class.upload.php/tree/master"
+            },
+            "time": "2021-09-16T20:08:48+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "verot/class.upload.php": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.6.36"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
