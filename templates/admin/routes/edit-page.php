@@ -15,22 +15,22 @@
                     <div class="row">
                         <div class="col-md-3 form-group">
                             <label class="checkbox-inline">
-                                <input type="checkbox" id="category1" value="cat1" name="category[]" <?= in_array('cat1', $cat) ? 'checked="checked"' : ''; ?> /> Top Link Menu
+                                <input type="checkbox" id="category1" value="cat1" name="category[]" <?= in_array('cat1', $cat) ? 'checked="checked"' : ''; ?> /> Main Site Menu
                             </label>
                         </div>
                         <div class="col-md-3 form-group">
                             <label class="checkbox-inline">
-                                <input type="checkbox" id="category2" value="cat2" name="category[]" <?= in_array('cat2', $cat) ? 'checked="checked"' : ''; ?> /> Main Site Menu
+                                <input type="checkbox" id="category2" value="cat2" name="category[]" <?= in_array('cat2', $cat) ? 'checked="checked"' : ''; ?> /> 1ST Footer Menu
                             </label>
                         </div>
                         <div class="col-md-3 form-group">
                             <label class="checkbox-inline">
-                                <input type="checkbox" id="category3" value="cat3" name="category[]" <?= in_array('cat3', $cat) ? 'checked="checked"' : ''; ?> /> 1ST Footer Menu
+                                <input type="checkbox" id="category3" value="cat3" name="category[]" <?= in_array('cat3', $cat) ? 'checked="checked"' : ''; ?> /> 2ND Footer Menu
                             </label>
                         </div>
                         <div class="col-md-3 form-group">
                             <label class="checkbox-inline">
-                                <input type="checkbox" id="category4" value="cat4" name="category[]" <?= in_array('cat4', $cat) ? 'checked="checked"' : ''; ?> /> 2ND Footer Menu
+                                <input type="checkbox" id="category4" value="cat4" name="category[]" <?= in_array('cat4', $cat) ? 'checked="checked"' : ''; ?> /> 3RD Footer Menu
                             </label>
                         </div>
 

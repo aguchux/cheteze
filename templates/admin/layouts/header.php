@@ -81,7 +81,7 @@ $UserInfo = $Core->UserInfo($accid);
               <div class="card-body contacts_body p-0 dz-scroll  " id="DZ_W_Contacts_Body">
                 <ul class="contacts">
 
-                  <li class="dz-chat-user">
+                  <li class="dz-chat-user d-none">
                     <div class="d-flex bd-highlight">
                       <div class="img_cont">
                         <img src="images/avatar/1.jpg" class="rounded-circle user_img" alt="">
@@ -205,27 +205,6 @@ $UserInfo = $Core->UserInfo($accid);
               <i class="flaticon-381-networking"></i>
               <span class="nav-text">Dashboard</span>
             </a>
-          </li>
-
-          <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
-              <i class="flaticon-381-user"></i>
-              <span class="nav-text">Youth Members</span>
-            </a>
-            <ul aria-expanded="false">
-              <li><a href="/admin/registrations">Registrations</a></li>
-              <li><a href="/admin/members">Approved Members</a></li>
-            </ul>
-          </li>
-
-          <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
-              <i class="flaticon-381-user"></i>
-              <span class="nav-text">Donations & Dues</span>
-            </a>
-            <ul aria-expanded="false">
-            <li><a href="/admin/add-project">Create Project/Dues</a></li>
-             <li><a href="/admin/donations">Manage Donations</a></li>
-              <li><a href="/admin/dues">Manage Dues</a></li>
-            </ul>
           </li>
 
           <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">

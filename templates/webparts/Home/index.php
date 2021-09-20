@@ -10,6 +10,7 @@ Name: Landing Page (Home PAge)
         <?php endwhile; ?>
     </ul>
 </div>
+
 <!-- Main Start -->
 <main id="main">
     <div class="main-section">

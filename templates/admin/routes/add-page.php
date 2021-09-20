@@ -16,22 +16,22 @@
 
                         <div class="col-md-3 form-group">
                             <label class="checkbox-inline">
-                                <input type="checkbox" id="category1" value="cat1" name="category[]"> Top Link Menu
+                                <input type="checkbox" id="category1" value="cat1" name="category[]"> Main Site Menu
                             </label>
                         </div>
                         <div class="col-md-3 form-group">
                             <label class="checkbox-inline">
-                                <input type="checkbox" id="category2" value="cat2" checked aria-checked="true" name="category[]"> Main Site Menu
+                                <input type="checkbox" id="category2" value="cat2" checked aria-checked="true" name="category[]"> 1ST Footer Menu
                             </label>
                         </div>
                         <div class="col-md-3 form-group">
                             <label class="checkbox-inline">
-                                <input type="checkbox" id="category3" value="cat3" name="category[]"> 1ST Footer Menu
+                                <input type="checkbox" id="category3" value="cat3" name="category[]"> 2ND Footer Menu
                             </label>
                         </div>
                         <div class="col-md-3 form-group">
                             <label class="checkbox-inline">
-                                <input type="checkbox" id="category4" value="cat4" name="category[]"> 2ND Footer Menu
+                                <input type="checkbox" id="category4" value="cat4" name="category[]"> 3RD Footer Menu
                             </label>
                         </div>
                         <div class="col-md-12 form-group">

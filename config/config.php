@@ -48,3 +48,6 @@ define("db","prdpljhw_etixa");
 define("db_port",null);
 define("db_charset","utf8");
 define("db_socket",null);
+
+define("keywords","kelly cheteze, chetezeandshovelshomes, cheteze and shovels homes,cheteze,shovels,homes, homes in nigeria");
+define("description","");
