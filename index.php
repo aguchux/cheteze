@@ -18,9 +18,6 @@ $Route->add('/', function () {
 
     $Template->assign("PageParts", $Core->PageWebParts($PageInfo->pageid));
 
-    $Template->assign("Sliders", $Core->Sliders());
-
-
     $Template->assign("haspage", false);
     $Template->assign("menukey", "home");
     $Template->render("home");
